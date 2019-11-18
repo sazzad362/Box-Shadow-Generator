@@ -6,7 +6,7 @@
   * Author:       Md Sazzad Hossain
   * Author URI:   https://sazzad362.com/
   * Version:      1.0.0
-  * Last update:  14-11-2019
+  * Last update:  18-11-2019
 
  * -----------------------------------------------------------------*/
 /*---------------------------
@@ -25,6 +25,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 @import url("../css/bootstrap.min.css");
+/*-------------------------
+	No Hasle Color Picker
+--------------------------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css");
 /* 
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -58,6 +62,17 @@ body {
 #main_area .operational_box {
   padding: 45px;
   transition: all 0.5s;
+}
+#main_area .color_picker {
+  margin-top: 15px;
+}
+#main_area .op_area {
+  padding: 15px 0;
+}
+#main_area .op_area input {
+  padding: 6px 10px;
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -61,6 +61,11 @@
 								<input class="range-slider__range" type="range" value="0" min="-100" max="100" step="1">
 								<span class="range-slider__value" id="spread-radius">0</span>
 							</div> 
+
+							<div class="color_picker">
+								<label for="">Chose Color</label>
+								<input type='text' id="custom" name="color" value="#000" />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -70,6 +75,11 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, magni? Velit minus, vero suscipit beatae facilis doloribus aliquam sed expedita accusantium itaque assumenda laborum facere aliquid hic! Reiciendis, similique, et?
 						</div>
 					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="op_area">
+						<input type="text" id="out_code" value="#f00" onclick="this.select();">
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -83,6 +93,7 @@
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
 	<script src="assets/js/range.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/spectrum.min.js"></script>
 	<script src="assets/js/app.js"></script>
 </body>
 </html>
