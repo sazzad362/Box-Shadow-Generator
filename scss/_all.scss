@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+.title_area{
+	background-color: #dddd;
+}
+
+#main_area{
+	padding:80px 0;
+	.box{
+		padding: 45px;
+		transition:all 0.5s;
+		background-color: #F35304;
+		color:#fff;
+	}
+	.operational_box{
+		padding: 45px;
+		transition:all 0.5s;
+	}
+}

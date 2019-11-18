@@ -31,4 +31,33 @@
 */
 @import url("../css/font-awesome.min.css");
 @import url("../css/animate.css");
-@import url("../css/rangeslider.css");
+@import url("../css/range.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.title_area {
+  background-color: #dddd;
+}
+
+#main_area {
+  padding: 80px 0;
+}
+#main_area .box {
+  padding: 45px;
+  transition: all 0.5s;
+  background-color: #F35304;
+  color: #fff;
+}
+#main_area .operational_box {
+  padding: 45px;
+  transition: all 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */

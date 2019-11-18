@@ -22,7 +22,58 @@
 	  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 	
-	<h1>Hello World</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 p-0">
+				<div class="title_area text-center p-4 text-uppercase">
+					<h1>CSS Box Shadow Generator</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section id="main_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="operational_area">
+						<div class="operational_box">
+							<div class="range-slider">
+								<label for="">Horizontal Length</label>
+								<input class="range-slider__range" type="range" value="0" min="-100" max="100" step="1">
+								<span class="range-slider__value" id="horizontal-length">0</span>
+							</div>
+
+							<div class="range-slider">
+								<label for="">Vertical Length</label>
+								<input class="range-slider__range" type="range" value="0" min="-100" max="100" step="1">
+								<span class="range-slider__value" id="vertical-length">0</span>
+							</div>
+
+							<div class="range-slider">
+								<label for="">Blur Radius</label>
+								<input class="range-slider__range" type="range" value="0" min="-100" max="100" step="1">
+								<span class="range-slider__value" id="blur-radius">0</span>
+							</div> 
+
+							<div class="range-slider">
+								<label for="">Spread Radius</label>
+								<input class="range-slider__range" type="range" value="0" min="-100" max="100" step="1">
+								<span class="range-slider__value" id="spread-radius">0</span>
+							</div> 
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 offset-md-2">
+					<div class="output_area">
+						<div class="box" id="box">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, magni? Velit minus, vero suscipit beatae facilis doloribus aliquam sed expedita accusantium itaque assumenda laborum facere aliquid hic! Reiciendis, similique, et?
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!--
 	  =====================
@@ -30,7 +81,7 @@
 	  =====================
 	-->
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
-	<script src="assets/js/rangeslider.min.js"></script>
+	<script src="assets/js/range.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/app.js"></script>
 </body>
