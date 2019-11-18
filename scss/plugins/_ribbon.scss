@@ -1,0 +1,21 @@
+.ribbon {
+    position: absolute;
+    top: 42px;
+    width: 200px;
+    padding: 6px 0;
+    background: #f35304;
+    color: #eee;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    left: -42px;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+    a{
+        color:#fff;
+    }
+}
